@@ -1,8 +1,8 @@
 class BdmRoot < Formula
   desc "A modular scientific software framework"
   homepage "https://github.com/root-project/root"
-  url "https://cernbox.cern.ch/index.php/s/BbFptgxo2K565IS/download?path=%2F&files=root_v6.11.01_macos64_LLVM-Clang-4.0_263508429d.tar.gz"
-  sha256 "fe0143db4b7a0abc4265d5512efb66c96477bcadda87e6c450140b7da8e84ea8"
+  url "https://cernbox.cern.ch/index.php/s/BbFptgxo2K565IS/download?path=%2F&files=root_v6.11.01_macos64_LLVM-Clang-5.0_263508429d.tar.gz"
+  sha256 "fdca7d142fb29d657305f30a5d62b2c5c8112fb339d9a7b054a654520c88cfb4"
   version "6.11.01"
   
   bottle :unneeded
