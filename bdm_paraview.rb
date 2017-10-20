@@ -7,7 +7,7 @@ class BdmParaview < Formula
   
   bottle :unneeded
   
-  depends_on "Senui/biodynamo/bdm_qt" => :build
+  depends_on "qt5" => :build
 
   def install
     prefix.install Dir["*"]
