@@ -16,7 +16,6 @@ class Biodynamo < Formula
     (prefix + "lib").install Dir["lib/*"]
     (prefix + "include").install Dir["include/*"]
     (prefix + "share").install Dir["share/*"]
-    (prefix + "cmake").install Dir["cmake/*"]
   end
 
   test do
