@@ -3,7 +3,7 @@ class Biodynamo < Formula
   homepage "https://github.com/Senui/biodynamo"
   #TODO: replace with correct link / hashsum
   url "https://github.com/Senui/biodynamo/releases/download/v0.0.9/biodynamo-0.1.0.sierra.tar.gz"
-  sha256 "dd3d557b725b96d03c6d915f6c54f097e81cef3770208416583c9f4aad162c83"
+  sha256 "ac925b95b8152aaaef57eddab1efbab6494bf770897e7008027e5798b63d2b4d"
   version "0.1.0"
 
   depends_on "Senui/biodynamo/bdm_root" => :build
