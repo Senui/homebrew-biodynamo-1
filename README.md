@@ -6,4 +6,3 @@ Here we host the Ruby scripts (i.e. Formulas) that help Homebrew to install BioD
 | `biodynamo.rb`     | The main Formula for installing BioDynaMo             |
 | `bdm_root.rb`      | The Formula for installing ROOT                       |
 | `bdm_paraview.rb`  | The Formula for installing ParaView                   |
-| `bdm_qt.rb`        | The Formula for installing Qt (a ParaView dependency) |
