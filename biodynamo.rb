@@ -19,7 +19,6 @@ class Biodynamo < Formula
     (prefix + "lib").install Dir["lib/*"]
     (prefix + "include").install Dir["include/*"]
     (prefix + "share").install Dir["share/*"]
-    system "python3", "-m", "pip", "install", "requests"
   end
 
   test do
