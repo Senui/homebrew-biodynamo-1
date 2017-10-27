@@ -8,7 +8,10 @@ class Biodynamo < Formula
 
   depends_on "Senui/biodynamo/bdm_root" => :build
   depends_on "cmake" => :build
+  depends_on "doxygen" => :build
   depends_on "llvm" => :build
+  depends_on "python" => :build
+  depends_on "python3" => :build
   depends_on "Senui/biodynamo/bdm_paraview" => :recommended
 
   def install
@@ -16,6 +19,7 @@ class Biodynamo < Formula
     (prefix + "lib").install Dir["lib/*"]
     (prefix + "include").install Dir["include/*"]
     (prefix + "share").install Dir["share/*"]
+    python3 -m pip install requests
   end
 
   test do
